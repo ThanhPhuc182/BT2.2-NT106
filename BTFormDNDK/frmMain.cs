@@ -21,5 +21,10 @@ namespace BTFormDNDK
         {
 
         }
+
+        private void btnDangXuat_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

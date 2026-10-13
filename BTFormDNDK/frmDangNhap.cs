@@ -58,6 +58,10 @@ namespace BTFormDNDK
                 frmMain mainForm = new frmMain(txtTenDangNhap.Text.Trim(), user.Value.ChucVu);
                 this.Hide();
                 mainForm.ShowDialog();
+                txtTenDangNhap.Clear();    
+                txtMatKhau.Clear();      
+                lblLoi.Text = "";          
+                txtTenDangNhap.Focus();
                 this.Show();
             }
             catch (Microsoft.Data.SqlClient.SqlException)

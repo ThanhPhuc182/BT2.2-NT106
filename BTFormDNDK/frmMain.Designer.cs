@@ -60,6 +60,7 @@
             btnDangXuat.TabIndex = 2;
             btnDangXuat.Text = "Đăng xuất";
             btnDangXuat.UseVisualStyleBackColor = true;
+            btnDangXuat.Click += btnDangXuat_Click_1;
             // 
             // frmMain
             // 
